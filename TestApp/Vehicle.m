@@ -14,6 +14,7 @@
 
 -(Vehicle*)initWithMark:(NSString*)aMark andType:(NSString*)aType
 {
+    self = [super init];
     self.mark = aMark;
     self.type = aType;
     return self;
